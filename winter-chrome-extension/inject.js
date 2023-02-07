@@ -113,7 +113,7 @@ function createButton(checkout) {
     const contractAddress = urlArray[urlArray.length - 2];
     checkout.setAttribute(
       "src",
-      `https://checkout.usewinter.com/?contractAddress=${contractAddress}&tokenId=${id}`
+      `https://checkout.usewinter.com/?contractAddress=${contractAddress}&tokenId=${id}&fillSource=winterChromeExtension.io`
     );
     checkout.style.visibility = "visible";
     checkout.style.display = "inline";
